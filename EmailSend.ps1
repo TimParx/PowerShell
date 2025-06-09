@@ -1,8 +1,8 @@
-$mailfrom = "exelasetest@euprod.exelaonline.com"
-$mailto = "timo-ai.helpdesk@xbpeurope.com"
+$mailfrom = "maciej.smolinski@xbpeurope.com"
+$mailto = "servicedesk@xbpeurope.com"
 
 $subject = "test"
 $body = "test"
-$smtpserver = "10.34.110.180"
+$smtpserver = "relay.banctec.se"
 
 Send-MailMessage -From $mailfrom -To $mailto -Subject $subject -Body $body -BodyAsHtml -SmtpServer $smtpserver
